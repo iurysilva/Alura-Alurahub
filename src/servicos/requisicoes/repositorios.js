@@ -42,3 +42,13 @@ export async function criarRepositoriosDoUsuario(postId, nome, data){
         }
 }
 
+export async function deletarRepositoriosDoUsuario(id){
+    try {
+        await api.delete(`/repos/${id}`)
+            return 'Sucesso'
+        }
+        catch (error){
+            console.log(error)
+            return 'Erro'
+        }
+}
