@@ -1,24 +1,10 @@
-<h1 align="center">
-    <img alt="FicandoOnline" title="#FicandoOnline" src=".images/header.jpg" width="100%" />
-</h1>
+## What is AluraHub?
 
-<h4 align="center"> 
-	AluraHub 
-</h4>
+Alurahub is an application made with React Native that allows one to save a profile with informations, such as the person name and photo, and  enable queries in a repository that contains data.
 
-<p align="center">
-  <a href="#information_source-o-que-é-o-ficando-online">O que é o AluraHub?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
+how does it work? The app consumes a local fake API with json-server.
 
-## :information_source: O que é o AluraHub?
-
-O AluraHub é uma aplicação feita em React Native que permite salvar um perfil com informações como nome da pessoa e uma foto, e possibilita consultar um repositório que armazena dados.
-
-Como ele funciona? O app consome uma API externa, no caso, a API pública do Github ou uma fake API com json-server.
-
-Esse projeto é utilizado no curso 4 da formação base de React Native da plataforma da Alura.
+This project is used in the fourth Alura React Native course.
 
 
 <h1 align="center">
@@ -26,40 +12,37 @@ Esse projeto é utilizado no curso 4 da formação base de React Native da plata
 </h1>
 
 
-## :rocket: Tecnologias
+## Technologies
 
-Esse projeto foi desenvolvido com a utilização das seguintes tecnologias:
+This project was developed using these technologies:
 - [React Native][rn]
 - [Expo][expo]
 
-## :information_source: Como usar
+## How to use
 
-Para copiar e executar essa aplicação, você precisa de três pré-requisitos: [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] intalados no seu computador.
+To copy this application, you need three requirements: [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed in your machine.
 
-No terminal, digite os comandos a seguir:
+In the shell, type the following commands:
 
-### Baixar e instalar o projeto
+### Download and install the project
 
 ```bash
-# Clonar esse repositório
+# Clone this repository
 $ git clone https://github.com/alura-cursos/react-native-ficando-online.git
 
-# Vá para o ropositório
+# Access the repository
 $ cd AluraHub
 
-# Instale as dependências
+# Install project dependencies
 $ npm install
 ```
 
-### Executar o Mobile
+### Running
 
 ```bash
-# Execute em outro terminal (dentro da pasta AluraHub)
+# Run it in a different shell (inside Alurahub project folder)
 $ expo start
 ```
-
-
-Espero que você utilize ao máximo deste projeto para se aprimorar! E se quiser dar um salve, estou lá no LinkedIn [André Oliveira Cunha](https://www.linkedin.com/in/andr%C3%A9-oliveira-cunha-b26b3a156/). :wave: 
 
 [nodejs]: https://nodejs.org/
 [expo]: https://docs.expo.dev/
